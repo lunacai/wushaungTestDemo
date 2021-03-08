@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/activemqconsumer/activemqconsumer.iml" filepath="$PROJECT_DIR$/activemqconsumer/activemqconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-demo/client-demo.iml" filepath="$PROJECT_DIR$/client-demo/client-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-provider-demo/dubbo-provider-demo.iml" filepath="$PROJECT_DIR$/dubbo-provider-demo/dubbo-provider-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbox-provider-demo/dubbox-provider-demo.iml" filepath="$PROJECT_DIR$/dubbox-provider-demo/dubbox-provider-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-consumer/kafka-consumer.iml" filepath="$PROJECT_DIR$/kafka-consumer/kafka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ons-rocketmq/ons-rocketmq.iml" filepath="$PROJECT_DIR$/ons-rocketmq/ons-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-demo/rabbitmq-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-demo/rabbitmq-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-consumer/rocketmq-consumer.iml" filepath="$PROJECT_DIR$/rocketmq-consumer/rocketmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-canace-demo/test-canace-demo.iml" filepath="$PROJECT_DIR$/test-canace-demo/test-canace-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-http-demo/test-http-demo.iml" filepath="$PROJECT_DIR$/test-http-demo/test-http-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-redis-demo/test-redis-demo.iml" filepath="$PROJECT_DIR$/test-redis-demo/test-redis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-soft-demo/test-soft-demo.iml" filepath="$PROJECT_DIR$/test-soft-demo/test-soft-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webflux-demo/webflux-demo.iml" filepath="$PROJECT_DIR$/webflux-demo/webflux-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wushuang-demo.iml" filepath="$PROJECT_DIR$/wushuang-demo.iml" />
+    </modules>
+  </component>
+</project>

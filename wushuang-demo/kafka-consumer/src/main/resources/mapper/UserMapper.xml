@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.kafkaconsumer.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.example.clientdemo.userAllModel">
+        <!--@mbg.generated-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id, `username`, description, content
+    </sql>
+
+    <select id="selectuserone" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select * from user limit 1
+    </select>
+
+    <select id="selectuser" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insertuser" keyColumn="id" keyProperty="id" parameterType="com.example.clientdemo.userAllModel"
+            useGeneratedKeys="true">
+        <!--@mbg.generated-->
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                `username`,
+            </if>
+            <if test="description != null">
+                `description`,
+            </if>
+            <if test="content != null">
+                `content`,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="description != null">
+                #{description,jdbcType=VARCHAR},
+            </if>
+            <if test="content != null">
+                #{content,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateuser" parameterType="com.example.clientdemo.userAllModel">
+        update user
+        <set>
+            <if test="username != null">username=#{username,jdbcType=VARCHAR},</if>
+            <if test="description != null">description=#{description,jdbcType=VARCHAR},</if>
+            <if test="content != null">content=#{content,jdbcType=VARCHAR}</if>
+        </set>
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+
+    <delete id="deluser" parameterType="java.lang.Long">
+        <!--@mbg.generated-->
+        delete from user
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+
+    <select id="selectusertwo" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from wenzitiebiechangdeshujukunizhidaoma
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insertusertwo" keyColumn="id" keyProperty="id" parameterType="com.example.clientdemo.userAllModel"
+            useGeneratedKeys="true">
+        <!--@mbg.generated-->
+        insert into wenzitiebiechangdeshujukunizhidaoma
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                `username`,
+            </if>
+            <if test="description != null">
+                `description`,
+            </if>
+            <if test="content != null">
+                `content`,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="description != null">
+                #{description,jdbcType=VARCHAR},
+            </if>
+            <if test="content != null">
+                #{content,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateusertwo" parameterType="com.example.clientdemo.userAllModel">
+        update wenzitiebiechangdeshujukunizhidaoma
+        <set>
+            <if test="username != null">username=#{username,jdbcType=VARCHAR},</if>
+            <if test="description != null">description=#{description,jdbcType=VARCHAR},</if>
+            <if test="content != null">content=#{content,jdbcType=VARCHAR}</if>
+        </set>
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+
+    <delete id="delusertwo" parameterType="java.lang.Long">
+        <!--@mbg.generated-->
+        delete from wenzitiebiechangdeshujukunizhidaoma
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+
+    <select id="selectusersan" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from insertParam
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insertusersan" keyColumn="id" keyProperty="id" parameterType="com.example.clientdemo.userAllModel"
+            useGeneratedKeys="true">
+        <!--@mbg.generated-->
+        insert into insertParam
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                `username`,
+            </if>
+            <if test="description != null">
+                `description`,
+            </if>
+            <if test="content != null">
+                `content`,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="description != null">
+                #{description,jdbcType=VARCHAR},
+            </if>
+            <if test="content != null">
+                #{content,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateusersan" parameterType="com.example.clientdemo.userAllModel">
+        update insertParam
+        <set>
+            <if test="username != null">username=#{username,jdbcType=VARCHAR},</if>
+            <if test="description != null">description=#{description,jdbcType=VARCHAR},</if>
+            <if test="content != null">content=#{content,jdbcType=VARCHAR}</if>
+        </set>
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+
+    <delete id="delusersan" parameterType="java.lang.Long">
+        <!--@mbg.generated-->
+        delete from insertParam
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

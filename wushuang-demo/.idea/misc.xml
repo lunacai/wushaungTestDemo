@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/test-soft-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-provider-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/client-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/test-http-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/activemqconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ons-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/test-redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/webflux-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbox-provider-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/test-canace-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

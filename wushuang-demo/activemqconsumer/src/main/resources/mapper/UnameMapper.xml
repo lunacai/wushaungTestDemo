@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.activemqconsumer.mapper.UnameMapper">
+    <resultMap id="BaseResultMap" type="com.example.activemqconsumer.unameModel">
+        <!--@mbg.generated-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="author" jdbcType="VARCHAR" property="author"/>
+        <result column="bookname" jdbcType="VARCHAR" property="bookname"/>
+        <result column="bookdes" jdbcType="VARCHAR" property="bookdes"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        <!--@mbg.generated-->
+        id,author, `bookname`, bookdes
+    </sql>
+
+    <select id="selectUnameBook" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from unameBook
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+    <insert id="insertUnameBook" keyColumn="id" keyProperty="id" parameterType="com.example.activemqconsumer.unameModel"
+            useGeneratedKeys="true">
+        <!--@mbg.generated-->
+        insert into unameBook
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="bookname != null">
+                `bookname`,
+            </if>
+            <if test="author != null">
+                `author`,
+            </if>
+            <if test="bookdes != null">
+                `bookdes`,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="bookname != null">
+                #{bookname,jdbcType=VARCHAR},
+            </if>
+            <if test="author != null">
+                #{author,jdbcType=VARCHAR},
+            </if>
+            <if test="bookdes != null">
+                #{bookdes,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateUnameBook" parameterType="com.example.activemqconsumer.unameModel">
+        update unameBook
+        <set>
+            <if test="bookname != null">bookname=#{bookname,jdbcType=VARCHAR},</if>
+            <if test="author != null">author=#{author,jdbcType=VARCHAR},</if>
+            <if test="bookdes != null">bookdes=#{bookdes,jdbcType=VARCHAR}</if>
+        </set>
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+
+    <delete id="delUnameBook" parameterType="java.lang.Long">
+        <!--@mbg.generated-->
+        delete from unameBook
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+</mapper>

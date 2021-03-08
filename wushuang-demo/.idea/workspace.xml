@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a808654-ecf6-41c1-b7b0-8e636a9bbed9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l6143N4IlsnnLSazgZyyX97l6l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-canace-demo/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.kafkaconsumer" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.kafkaconsumer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-canace-demo/src/main/java" />
+      <recent name="$PROJECT_DIR$/rabbitmq-demo/src/main/java/com/example/rabbitmqdemo" />
+      <recent name="$PROJECT_DIR$/test-redis-demo/src/main/java/com/example/testredisdemo/controller" />
+      <recent name="$PROJECT_DIR$/test-http-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ons-rocketmq/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.dubboproviderdemo.service" />
+      <recent name="com.example.testhttpdemo.toDB" />
+      <recent name="com.example.clientdemo" />
+      <recent name="com.example.testcanacedemo" />
+      <recent name="com.example.testhttpdemo.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-consumer/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean:clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TestRedisDemoApplication">
+    <configuration name="TestRedisDemoApplicationTests.d" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.testredisdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.testredisdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.testredisdemo.TestRedisDemoApplicationTests" />
+      <option name="METHOD_NAME" value="d" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivemqconsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activemqconsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.activemqconsumer.ActivemqconsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProviderDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dubboproviderdemo.DubboProviderDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboxProviderDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbox-provider-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dubboxproviderdemo.DubboxProviderDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.kafkaconsumer.KafkaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnsRocketmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ons-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.onsrocketmq.OnsRocketmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbitmqdemo.RabbitmqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketmqConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rocketmq-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rocketmqconsumer.RocketmqConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCanaceDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-canace-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testcanacedemo.TestCanaceDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHttpDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-http-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testhttpdemo.TestHttpDemoApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:$USER_HOME$/docker/zhangzheng/pradar-agent-trace/agent/pradar-core-ext-bootstrap-1.0.0.jar -Dpradar.project.name=wsdemo-soft-http-210113" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-redis-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testredisdemo.TestRedisDemoApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:$USER_HOME$/docker/angju/yingzi/pradar-core-ext-bootstrap-1.0.0.jar -Dpradar.project.name=wsdemo-test-redis-210225" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSoftDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-soft-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.testsoftdemo.TestSoftDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebfluxDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webflux-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.webfluxdemo.WebfluxDemoApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:$USER_HOME$/docker/minzhuo/webflux/pradar-core-ext-bootstrap-1.0.0.jar -Dpradar.project.name=test-webfluxdemo-0115" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestRedisDemoApplicationTests.d" />
+      <item itemvalue="Spring Boot.RocketmqConsumerApplication" />
+      <item itemvalue="Spring Boot.TestSoftDemoApplication" />
+      <item itemvalue="Spring Boot.DubboProviderDemoApplication" />
+      <item itemvalue="Spring Boot.TestHttpDemoApplication" />
+      <item itemvalue="Spring Boot.ActivemqconsumerApplication" />
+      <item itemvalue="Spring Boot.KafkaConsumerApplication" />
+      <item itemvalue="Spring Boot.OnsRocketmqApplication" />
+      <item itemvalue="Spring Boot.TestRedisDemoApplication" />
+      <item itemvalue="Spring Boot.WebfluxDemoApplication" />
+      <item itemvalue="Spring Boot.RabbitmqDemoApplication" />
+      <item itemvalue="Spring Boot.DubboxProviderDemoApplication" />
+      <item itemvalue="Spring Boot.TestCanaceDemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRedisDemoApplicationTests.d" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a808654-ecf6-41c1-b7b0-8e636a9bbed9" name="Default Changelist" comment="" />
+      <created>1606902531754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606902531754</updated>
+      <workItem from="1606902534819" duration="8625000" />
+      <workItem from="1606961073254" duration="1537000" />
+      <workItem from="1609318981331" duration="29393000" />
+      <workItem from="1609827668192" duration="36331000" />
+      <workItem from="1610094194259" duration="45270000" />
+      <workItem from="1610517921011" duration="15219000" />
+      <workItem from="1610596805503" duration="3840000" />
+      <workItem from="1610693622577" duration="16898000" />
+      <workItem from="1610972311665" duration="243000" />
+      <workItem from="1610972580413" duration="32161000" />
+      <workItem from="1611284186812" duration="10440000" />
+      <workItem from="1611459750500" duration="39356000" />
+      <workItem from="1611837425100" duration="33644000" />
+      <workItem from="1612769773379" duration="998000" />
+      <workItem from="1613614638449" duration="6656000" />
+      <workItem from="1613704068249" duration="4400000" />
+      <workItem from="1613906964339" duration="314000" />
+      <workItem from="1613908769664" duration="265000" />
+      <workItem from="1613965107545" duration="677000" />
+      <workItem from="1614134399564" duration="10656000" />
+      <workItem from="1614329689825" duration="671000" />
+      <workItem from="1614479000264" duration="362000" />
+      <workItem from="1614568016786" duration="2521000" />
+      <workItem from="1614583359749" duration="1026000" />
+      <workItem from="1614586903971" duration="1607000" />
+      <workItem from="1614677720814" duration="2414000" />
+      <workItem from="1614738773407" duration="6761000" />
+      <workItem from="1614847246656" duration="646000" />
+      <workItem from="1614939050078" duration="742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Inspections" timestamp="1610360009005">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1610360009005" />
+    <state x="320" y="115" key="#Notifications" timestamp="1611837462634">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1611837462634" />
+    <state x="320" y="115" key="#Project_Structure" timestamp="1611837137502">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1611837137502" />
+    <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606917338596">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606917338596" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614218075501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614218075501" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1611890128775">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1611890128775" />
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610972638338">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1610972638338" />
+    <state x="334" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1610972477578">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="334" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1610972477578" />
+    <state x="147" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609919874261">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="147" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1609919874261" />
+    <state x="460" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1609919876416">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="460" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1609919876416" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610348961542">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1610348961542" />
+    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1609748348040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="428" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1609748348040" />
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom" timestamp="1614939188808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614939188808" />
+    <state width="1398" height="330" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1614218377263" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center" timestamp="1614939188807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614939188807" />
+    <state width="1398" height="330" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1614218377261" />
+    <state width="1398" height="330" key="GridCell.Tab.0.left" timestamp="1614939188807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614939188807" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.877" timestamp="1609334519225" />
+    <state width="1398" height="330" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1614218377261" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right" timestamp="1614939188808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614939188808" />
+    <state width="1398" height="330" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1614218377262" />
+    <state width="1398" height="330" key="GridCell.Tab.1.bottom" timestamp="1614246475536">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614246475536" />
+    <state width="1398" height="330" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1614218377269" />
+    <state width="1398" height="330" key="GridCell.Tab.1.center" timestamp="1614246475535">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614246475535" />
+    <state width="1398" height="330" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1614218377266" />
+    <state width="1398" height="330" key="GridCell.Tab.1.left" timestamp="1614246475534">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614246475534" />
+    <state width="1398" height="330" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1614218377263" />
+    <state width="1398" height="330" key="GridCell.Tab.1.right" timestamp="1614246475535">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="330" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614246475535" />
+    <state width="1398" height="330" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1614218377267" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1612665238626">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612665238626" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1609927338184" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center" timestamp="1612665238625">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1612665238625" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1609927338183" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left" timestamp="1612665238624">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1612665238624" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1609927338182" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right" timestamp="1612665238625">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1612665238625" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1609927338183" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1610972515963">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1610972515963" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1610355211935">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1610355211935" />
+    <state x="255" y="149" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1610349965036">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="255" y="149" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1610349965036" />
+    <state x="269" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609919775698">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="269" y="193" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1609919775698" />
+    <state x="458" y="220" key="extract.method.dialog" timestamp="1606961817203">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="220" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1606961817203" />
+    <state x="378" y="207" width="837" height="550" key="find.popup" timestamp="1614754153477">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="207" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1614754153477" />
+    <state x="61" y="168" key="new project wizard" timestamp="1614736916483">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="61" y="168" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1614736916483" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1612267019535">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1612267019535" />
+  </component>
+</project>
